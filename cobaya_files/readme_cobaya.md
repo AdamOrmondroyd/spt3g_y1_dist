@@ -23,7 +23,7 @@ Those steps are performed automatically by the install script.
 - Create a `spt_data` directory in `/path/to/cobaya/packages/data`
 - Move the `spt3g_Y1_v1_TTTEEE.clik` to `/path/to/cobaya/packages/data/spt_data`
 - Copy the `SPT3G_Y1` directory to `/path/to/cobaya/packages/code`
-- If your cobaya installation does not contains a version>=16.0 of `clik`(this is the case if you have installed the cobaya external default cosmology files with a `cobaya-install cosmo -m /path/to/cobaya/packages` for cobaya 3.2.1+), change the name of the directory `path/to/cobaya/packages/code/planck/` to  `path/to/cobaya/packages/code/planck_old/` 
+- If your cobaya installation does not contains a version>=16.0 of `clik`(this is the case if you have installed the cobaya external default cosmology files with a `cobaya-install cosmo -p /path/to/cobaya/packages` for cobaya 3.2.1+), change the name of the directory `path/to/cobaya/packages/code/planck/` to  `path/to/cobaya/packages/code/planck_old/` 
 - Create a link to your `clik` library installation (downloaded from [https://github.com/benabed/clik](https://github.com/benabed/clik)) to `path/to/cobaya/packages/code/planck/plc-3.1`.
 
 		$> ln -s /path/to/clik path/to/cobaya/packages/code/planck/plc-3.1
